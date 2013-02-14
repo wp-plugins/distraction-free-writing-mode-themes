@@ -3,22 +3,21 @@ Contributors: khromov
 Tags: editor, themes, dark theme
 Requires at least: 3.4.2
 Tested up to: 3.5
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPL2
 
-Provides alternative dark and light themes for for WordPress Distraction Free Writing mode. Use one of the built-in themes based on classics such as Monokai or K10, or write your own using CSS.
+Provides alternative dark and light themes for for WordPress Distraction Free Writing mode editor. Use one of the built-in themes based on classics such as Monokai or Q10, or write your own using CSS.
 
 == Description ==
-Provides dark and light themes for for Distraction Free Writing mode. Use one of the built-in themes such as Monokai or K10, or write your own with custom CSS.
+Provides alternative dark and light themes for for WordPress Distraction Free Writing mode editor. Use one of the built-in themes based on classics such as Monokai or Q10, or write your own using CSS.
 
 **Usage**
+Enter the Distraction Free writing Mode in Wordpress by clicking the DFWM button in the editor. (Shortcut Alt+Shift+W)
 
-*Basic usage*
-
-Enter the Distraction Free writing Mode in Wordpress by clicking the DFWM button. (Shortcut Alt+Shift+W)
+[Read mode about the Distraction Free writing Mode](http://en.support.wordpress.com/distraction-free-writing/)
 
 == Requirements ==
-* PHP 5.3 or higher
+* PHP 5.3 or higher strongly recommended
 
 == Translations ==
 None at the moment. Translations welcome.
@@ -30,14 +29,25 @@ None at the moment. Translations welcome.
 
 == Frequently Asked Questions ==
 
-= The full-screen styles don't display correctly (as Preview)  =
-
-Your Wordpress Theme can affect the DFWM editor. Please submit a bug report containing your current Wordpress theme and also which theme in the plugin is not working.
+= The full-screen styles do not as in the Preview  =
+Your Wordpress Theme can affect the DFWM editor. Please submit a bug report containing both your current Wordpress theme as well as the theme in DFWM you are using.
 
 == Screenshots ==
-Coming soon.
+1. Monokai
+2. Nightsky
+3. Q10
+4. Matrix
+5. Paper
+6. Pearl
+7. Button to enter Distraction Free Writing mode
+8. DFWM Themes settings
 
 == Changelog ==
+
+= 1.2 =
+* More screenshots
+* Screenshot descriptions added
+* Readme improved
 
 = 1.1 =
 * Fixed missing theme previews
