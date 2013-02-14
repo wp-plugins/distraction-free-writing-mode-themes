@@ -3,7 +3,7 @@ Contributors: khromov
 Tags: editor, themes, dark theme
 Requires at least: 3.4.2
 Tested up to: 3.5
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPL2
 
 Provides alternative dark and light themes for for WordPress Distraction Free Writing mode editor. Use one of the built-in themes based on classics such as Monokai or Q10, or write your own using CSS.
@@ -44,6 +44,9 @@ Your current Wordpress Theme can affect this plugin. Please submit a bug report 
 8. DFWM Themes settings
 
 == Changelog ==
+
+= 1.4 =
+* Fixed a bug that prevented Custom CSS from working correctly
 
 = 1.3 =
 * Typo fixes in readme

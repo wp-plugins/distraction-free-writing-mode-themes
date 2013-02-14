@@ -4,4 +4,4 @@
 	//Include wp-load.php
 	include('../../../../wp-load.php');
 	
-	echo get_option('custom_theme_css');
+	echo get_option('dfwmt_custom_theme_css');

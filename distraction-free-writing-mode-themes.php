@@ -2,7 +2,7 @@
 /* TODO: Test shorttag disabled functionality
 Plugin Name: Distraction Free Writing mode Themes
 Description: Provides dark and light themes for for Distraction Free Writing mode. Use one of the built-in themes such as Monokai or K10, or write your own with custom CSS.
-Version: 1.3
+Version: 1.4
 License: GPL2
 Author: khromov
 Author URI: http://khromov.wordpress.com
