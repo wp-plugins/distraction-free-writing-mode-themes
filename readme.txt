@@ -9,7 +9,7 @@ License: GPL2
 Provides dark and light themes for for Distraction Free Writing mode. Use one of the beautiful built-in themes or write your own.
 
 == Description ==
-Dark and light themes for for WordPress Distraction Free Writing mode editor. Use one of the built-in themes based on classics such as Monokai or Q10, or write your own using CSS.
+Dark and light themes for WordPress Distraction Free Writing mode editor. Use one of the built-in themes based on classics such as Monokai or Q10, or write your own using CSS.
 
 **Usage**
 
