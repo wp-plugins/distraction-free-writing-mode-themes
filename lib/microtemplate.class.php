@@ -9,12 +9,12 @@
 		private $prefix;
 		private $suppress_errors;
 		
-		function __construct($prefix='templates/', $suppress_errors = true, $rewrite_short_tags = true)
+		function __construct($prefix='templates/', $suppress_errors = true)
 		{
 			$this->prefix = $prefix;
 			$this->suppress_errors = $suppress_errors;
 			
-			if(!$this->short_open_tag_enabled())
+			if(!$this->short_open_tag_enabled() && !$this->suppress_errors)
 				throw new Exception('PHP short tags are disabled, please set the short_open_tag directive to "On" in your php.ini');
 		}
 		
@@ -43,7 +43,7 @@
 
 			if(file_exists($prefix.$template.'.php'))
 			{
-				if(((bool) @ini_get('short_open_tag') === false) && $rewrite_short_tags)
+				if(($this->short_open_tag_enabled() === false))
 				{
 					//Short tags not enabled let's do some magic. Taken from CodeIgniter core.
 					echo eval('?>'.preg_replace("/;*\s*\?>/", "; ?>", str_replace('<?=', '<?php echo ', file_get_contents($prefix.$template.'.php'))));
@@ -66,7 +66,7 @@
 		
 		function short_open_tag_enabled()
 		{
-			return ini_get('short_open_tag');
+			return (bool)@ini_get('short_open_tag');
 		}
 	}
 	

@@ -9,7 +9,7 @@
 		 	?>
 		 		<input type="radio" name="dfwmt_selected_theme" value="<?=basename($file)?>"<?=get_option('dfwmt_selected_theme')==basename($file) ? ' checked' : ''?>/> <?=ucfirst(basename($file))?> - <a href="<?=$v['plugin_url'] .'/css/'. basename($file) .'/preview.png'?>" target="_blank" onclick="return df_popup(this.href)">Preview</a>
 		 		<br />
-		 	<?
+		 	<?php
 		}
 	}
 ?>
