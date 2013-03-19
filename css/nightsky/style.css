@@ -20,7 +20,7 @@ body.wp-fullscreen-editor *
 	/**
 	font: 15px "Courier New", Courier, monospace, sans-serif !important;
 	**/
-	color: white;
+	color: white !important;
 }
 
 /** Bg picture 
@@ -30,7 +30,7 @@ body.wp-fullscreen-editor *
 /** body.fullscreen-active **/
 #fullscreen-overlay
 {
-	background: #021122 url("background.jpg") no-repeat center center fixed;
+	background: #021122 url("background.jpg") no-repeat center center fixed !important;
 	
   	-webkit-background-size: cover;
 	-moz-background-size: cover;

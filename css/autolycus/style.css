@@ -1,6 +1,6 @@
 body.wp-fullscreen-editor *
 {
-	color: #d0a000 !important;
+	color: #3f3a34 !important;
 	background: transparent !important;
 	
 	font-family: "Courier New", Courier, monospace !important;
@@ -12,27 +12,37 @@ body.wp-fullscreen-editor *
 #wp-fullscreen-body textarea,
 #wp-fullscreen-body #wp-fullscreen-title-prompt-text
 {
-	color: #d0a000 !important;
+	
+	color: #3f3a34 !important;
+}
+
+#wp-fullscreen-body #wp-fullscreen-title-prompt-text
+{
+	font-family: "Courier New", Courier, monospace !important;
+	font-weight: bold;
 }
 
 .wp-fullscreen-focus #wp-fullscreen-title,
 .wp-fullscreen-focus #wp-fullscreen-container
 {
-	border-color: #404040 !important;
+	font-family: "Courier New", Courier, monospace !important;
+	font-weight: bold;
+	border-color: #d7d6ce !important;
 }
+
 #fullscreen-overlay
 {
-	background-color: #0f0f0f !important;
+	background-color: #f3f2ec !important;
 }
 
 #wp-fullscreen-count
 {
 	margin-top: 10px;
-	color: #78b900 !important;
+	color: #6c645b !important;
 }
 
 #wp-fullscreen-tagline
 {
 	margin-top: 10px;
-	color: #78b900 !important;
+	color: #6c645b !important;
 }

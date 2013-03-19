@@ -8,7 +8,7 @@ body.wp-fullscreen-editor *
 #wp-fullscreen-body textarea,
 #wp-fullscreen-body #wp-fullscreen-title-prompt-text
 {
-	color: #F8F8F2;
+	color: #F8F8F2 !important;
 }
 
 .wp-fullscreen-focus #wp-fullscreen-title,
@@ -18,7 +18,7 @@ body.wp-fullscreen-editor *
 }
 #fullscreen-overlay
 {
-	background-color: #272822;
+	background-color: #272822 !important;
 }
 
 #wp-fullscreen-count

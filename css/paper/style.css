@@ -1,5 +1,5 @@
 #fullscreen-overlay
 {
-	background: #fff url("background.png") repeat;
+	background: #fff url("background.png") repeat !important;
 	background-size: auto;
 }

@@ -8,5 +8,5 @@
 	<br />
 	Images used with Creative Commons license.
 	<br />
-	Plugin banner created by <a href="http://www.groenroos.fi/">Oskari Groenroos</a>.
+	Plugin banner created by <a href="http://www.groenroos.fi/en" target="_blank">Oskari Groenroos</a>.
 </div>

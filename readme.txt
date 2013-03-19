@@ -2,8 +2,8 @@
 Contributors: khromov
 Tags: editor, themes, dark theme
 Requires at least: 3.4.2
-Tested up to: 3.5
-Stable tag: 1.5
+Tested up to: 3.5.1
+Stable tag: 2.0
 License: GPL2
 
 Provides dark and light themes for for Distraction Free Writing mode. Use one of the beautiful built-in themes or write your own.
