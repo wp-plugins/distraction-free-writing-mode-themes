@@ -3,7 +3,7 @@
 Plugin Name: Distraction Free Writing mode Themes
 Plugin URI: http://wordpress.org/extend/plugins/distraction-free-writing-mode-themes/
 Description: Provides dark and light themes for for Distraction Free Writing mode. Use one of the beautiful built-in themes or write your own.
-Version: 2.0
+Version: 2.1
 License: GPL2
 Author: khromov
 Author URI: http://khromov.wordpress.com
