@@ -3,13 +3,18 @@ Contributors: khromov
 Tags: editor, themes, dark theme
 Requires at least: 3.4.2
 Tested up to: 3.5.1
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPL2
 
 Provides dark and light themes for for Distraction Free Writing mode. Use one of the beautiful built-in themes or write your own.
 
 == Description ==
 Dark and light themes for WordPress Distraction Free Writing mode editor. Use one of the built-in themes based on classics such as Monokai or Q10, or write your own using CSS.
+
+** New in 2.1 **
+Introducing Autolycus and ZenHub themes - check out the screenshots in the Screenshots tab! (At the bottom)
+
+[Read the full announcement!](http://khromov.wordpress.com/2013/03/19/new-themes-for-wordpress-distraction-free-writing-mode "Read the announcement!")
 
 **Usage**
 
@@ -42,8 +47,14 @@ Your current Wordpress Theme can affect this plugin. Please submit a bug report 
 6. Pearl
 7. Button to enter Distraction Free Writing mode
 8. DFWM Themes settings
+9. Autolycus
+10. ZenHub
 
 == Changelog ==
+
+= 2.1 =
+* Introducing Autolycus and ZenHub themes - check out the screenshots in the Screenshots tab!
+* Compatibility with other plugins is improved by applying some !important overrides.
 
 = 1.5 =
 * Fixed a bug where the plugin did not get activated when short_open_tag was set to Off.
