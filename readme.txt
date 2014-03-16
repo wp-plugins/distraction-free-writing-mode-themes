@@ -2,8 +2,8 @@
 Contributors: khromov, m_uysl
 Tags: editor, themes, dark theme
 Requires at least: 3.5
-Tested up to: 3.7
-Stable tag: 3.0.1
+Tested up to: 3.8.1
+Stable tag: 3.1.0
 License: GPL2
 
 Provides dark and light themes for for Distraction Free Writing mode. Use one of the beautiful built-in themes or write your own.
@@ -64,6 +64,11 @@ Your current Wordpress Theme can affect this plugin. Please submit a bug report 
 10. ZenHub
 
 == Changelog ==
+
+= 3.1.0 =
+* Improved themes to fix some issues with WordPress themes overriding the Distraction Free styles.
+* Improved loading of Custom CSS
+* New Spanish translation, thanks Andrew Kurtis at WebHostingHub
 
 = 3.0.1 =
 
